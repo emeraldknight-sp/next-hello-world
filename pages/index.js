@@ -19,8 +19,7 @@ export default function Home() {
         <h1>Hello World, Next.JS!</h1>
         <ul>
           <li><Link href="/products">Produtos</Link></li>
-          <li></li>
-          <li></li>
+          <li><Link href="/about">Sobre</Link></li>
         </ul>
       </main>
     </>
