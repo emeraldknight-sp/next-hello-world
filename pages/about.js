@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Navbar from "../components/Navbar";
 
 export default function About() {
@@ -5,6 +6,7 @@ export default function About() {
     <>
       <Navbar />
       <h1>Página de About</h1>
+      <Link href="/">Voltar</Link>
     </>
   )
 }
