@@ -2,4 +2,7 @@
   min-height: 61.5vh;
   padding: 20px;
   text-align: center;
+  background-image: url('/reiner-vs-eren.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
