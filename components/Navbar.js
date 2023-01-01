@@ -6,6 +6,7 @@ export default function Navbar() {
     <ul className={styles.navbar}>
       <li><Link href="/">Início</Link></li>
       <li><Link href="/products">Produtos</Link></li>
+      <li><Link href="/contact">Contato</Link></li>
       <li><Link href="/about">Sobre</Link></li>
     </ul>
   )
