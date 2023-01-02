@@ -18,7 +18,7 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
   const response = await fetch(`https://jsonplaceholder.typicode.com/todos`)
-  const data = response.json()
+  const data = await response.json()
 
   const paths = data.map((todo) => {
     return {
